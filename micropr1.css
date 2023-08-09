@@ -1,0 +1,90 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.top-pane {
+    flex: 60; /* 60% of the available space */
+    height: 70vh;
+background-color: #FFCD9E;
+padding: block;
+}
+
+.left-part {
+    position: relative;
+    width: 562px;
+   height: 108px;
+   top: 83px;
+   left: 136px;
+   
+   
+   
+   }
+   
+   .right-part {
+   position: relative;
+   width: 75.0000610351562px;
+   height: 375px;
+   top: 20px;
+   left: 818px;
+   
+   
+   
+   }
+
+   .para {
+
+    font-weight: bold;
+    font-size: large;
+ }
+
+ .email {
+    position: relative;
+      width: 350px;
+  height: 64px;
+  top: 411px;
+  left: 136px;
+  border-radius: 8px;
+  border: 4px;
+  }
+
+  .mytext {
+    width: 344px;
+height: 64px;
+top: 411px;
+left: 136px;
+border-radius: 4ch
+}
+
+  .sumit {
+    position: relative;
+     width: 216px;
+ height: 64px;
+ top: -62px;
+ left: 368px;
+ border-radius: 4px;
+ background-color: black;
+ color: white;
+ font-size: x-large;
+ }
+
+.bottom-pane {
+    flex: 40; /* 40% of the available space */
+    display: flex; /* Nested flex container */
+    flex-direction: row; /* Arrange the children horizontally */
+    background-color: black;
+    color: white;
+}
+
+.left-half, .right-half {
+    flex: 50; /* Both parts take up 50% of the bottom pane */
+}
